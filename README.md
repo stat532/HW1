@@ -1,1 +1,39 @@
 # HW1
+Please use D2L to turn in both the PDF output and your R Markdown file.
+
+### Q1.  
+Read Andrew Gelman and Cosma Shalizi's *Philosophy and the Practice of Bayesian Statistics*, a link is available on the course webpage. The paper is a little long, so the following questions are designed to focus your reading. 
+
+#### a. (4 pts - 1/2 page or so)
+Summarize the key points in the paper. Hint: see section 7.
+
+#### b. (2 pts - 1/4 page or so)
+Summarize Section 4.1
+
+#### c. (2 pts - 1/4 page or so)
+Describe the data analysis cycle, both from a frequentist and Bayesian perspective.
+
+#### d. (2 pts - 1/4 page or so)
+How do the hypothetico-deductive and inductive philosophical view points on science differ?
+
+
+### Q2. (4 pts) 
+Describe the differences between Bayesian and classical inference. Include a discussion on confidence and credible intervals. Do you currently consider yourself a Bayesian or classical statistician (no wrong answers here)?
+
+### Q3. 
+Assume you are hired by Bridger Bowl to compute the probability than an MSU student either skis (or snowboards).
+
+#### a. (2 pts)
+If binary data is collected from 300 students, what is the sampling model for this research question? Please name the distribution and write out the corresponding sampling distribution.
+
+#### b. (2pts)
+Use a prior distribution from the Beta distribution and create a plot/histogram from this distribution. Hint: `dbeta()` will be useful.  Why did you choose the &alpha; and &beta; values for this prior distribution?
+
+#### c. (2 pts)
+Assume 234 of the sampled MSU students claim to either ski or snowboard. Compute the posterior distribution, p(&theta;|Y) where &theta; is the probability of MSU student skiing and Y is the observed responses.
+
+#### d. (2 pts)
+Plot the posterior distribution computed in part (c) and compute a 95% credible interval for &theta;.
+
+#### e. (2 pts - 1/4 page or so)
+Summarize the results for the director of Bridger Bowl, who you can assume has not taken a statistics course recently.
